@@ -9,6 +9,11 @@ public class Book {
 
      }
 
+     public Book(String ISBN, String name) {
+         this.ISBN = ISBN;
+         this.name = name;
+     }
+
     public int getId() {
         return id;
     }
