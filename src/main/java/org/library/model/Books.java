@@ -1,15 +1,15 @@
 package org.library.model;
 
-public class Book {
+public class Books {
      private int id;
      private String ISBN;
      private String name;
 
-     public Book() {
+     public Books() {
 
      }
 
-     public Book(String ISBN, String name) {
+     public Books(String ISBN, String name) {
          this.ISBN = ISBN;
          this.name = name;
      }
